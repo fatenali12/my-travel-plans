@@ -33,14 +33,18 @@ body{
 	margin: 0.5em;
 	min-height: 200px;
 	flex: 0 1 200px;
-    display: flex;
+        display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	}
+.destination :hover h2 {
+	transform :rotate(0deg);
+}
 h2{
 	margin: 0;
 	transform: rotate(-45deg);
+	transition:transfrom 0.5s;
 	text-shadow: 0 0 5px #01579b;
 	}
 
